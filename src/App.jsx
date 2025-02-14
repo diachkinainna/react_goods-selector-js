@@ -45,7 +45,7 @@ export const App = () => {
           {goods.map(good => (
             <tr
               data-cy="Good"
-              key={goods.indexOf(good)}
+              key={good}
               className={value === good ? 'has-background-success-light' : ''}
             >
               <td>
